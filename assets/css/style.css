@@ -87,5 +87,10 @@ h1 {
     float: right;
     right:1em;
     bottom :1em;
+    transition: 300ms ease-in-out;
+}
 
+#btn:hover {
+    cursor: pointer;
+    transform: translateY(-15px);
 }
